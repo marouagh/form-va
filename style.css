@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background:  rgba(45,25,47,0.9);
+    margin: 20px 0px;
+
+}
+form
+{
+    display:flex;
+    height: 600px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+label
+{
+    opacity: 0.8;
+    color: white;
+    
+}
+.champ
+{
+    font-size: 25px;
+    background-color: rgba(26,14,27,1);
+    border: 1px solid transparent;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+}
+
+.btm1, .btm2
+{
+    background-color: rgba(26,14,27,1);
+    border: 1px solid transparent;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    color: white;
+    padding: 8px 0px;
+    opacity: 0.8; 
+    margin: 5px 0px;  
+}
